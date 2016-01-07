@@ -1,0 +1,29 @@
+{
+    "name":             "jzpeepz/datajoe",
+    "description":      "Libraries for pulling list data from the DataJoe API and storing it.",
+    "keywords":         ["datajoe"],
+    "homepage":         "https://github.com/jzpeepz/datajoe",
+    "time":             "2016-01-07",
+    "license":          "MIT",
+    "authors": [
+        {
+            "name":         "Jonathan Peoples",
+            "email":        "jonathan@flex360.com",
+            "homepage":     "http://www.flex360.com",
+            "role":         "Web Developer"
+        }
+    ],
+
+    "require": {
+        "laravel/laravel": ">5.1"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "DataJoe\\Listing": "src/",
+            "DataJoe\\ListingCollection": "src/",
+            "DataJoe\\Project": "src/",
+            "DataJoe\\Request": "src/"
+        }
+    }
+}
