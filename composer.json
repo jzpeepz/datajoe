@@ -15,7 +15,7 @@
     ],
 
     "require": {
-        "laravel/laravel": ">5.1"
+        "laravel/laravel": ">5.0"
     },
 
     "autoload": {
